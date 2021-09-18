@@ -1,0 +1,20 @@
+{
+  "name": "bootstrap-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@popperjs/core": "^2.10.1",
+    "bootstrap": "^5.1.1",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "sass": "^1.41.1"
+  },
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build"
+  },
+  "author": "Tomasz Bujnicki",
+  "license": "ISC"
+}

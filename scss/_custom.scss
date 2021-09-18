@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+$enable-negative-margins: true;
+$spacer: 2.5rem;
+
+$yellow: #ffc61a;
+$primary: $yellow;
+
+$font-family-base: 'Lato', sans-serif;
+
+$h1-font-size: 2.25rem;
+$h2-font-size: 1.875rem;
+$h3-font-size: 1.5625rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 1.125rem;
+$h6-font-size: 1.025rem;
+
+$headings-font-weight: 900;
+
+$font-sizes: (
+  1: 2.25rem,
+  2: 1.875rem,
+  3: 1.5625rem,
+  4: 1.25rem,
+  5: 1.125rem,
+  6: 1.025rem,
+);
+
+$display-font-sizes: (
+  1: 4.5rem,
+  2: 3.125rem,
+  3: 2.75rem,
+  4: 2.125rem,
+  5: 1.75rem,
+  6: 1.5rem,
+);
+
+$display-font-weight: 900;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
