@@ -5,6 +5,7 @@ $spacer: 2.5rem;
 
 $yellow: #ffc61a;
 $primary: $yellow;
+$secondary: #000000;
 
 $font-family-base: 'Lato', sans-serif;
 
@@ -38,3 +39,7 @@ $display-font-sizes: (
 $display-font-weight: 900;
 
 @import '../node_modules/bootstrap/scss/bootstrap';
+
+.btn-secondary:hover {
+  box-shadow: 0 0 0 0.25rem rgba(38, 38, 38, 0.5);
+}

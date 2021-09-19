@@ -21,12 +21,12 @@
         </div>
       </div>
     </section>
-    <section class="bg-primary">
-      <div class="container py-5">
-        <div class="row">
-          <div class="col py-3">
-            <h2>BEST IN CITY</h2>
-            <div class="display-2">
+    <section class="best-in-city bg-primary">
+      <div class="container py-4">
+        <div class="row justify-content-between">
+          <div class="col-xxl-6 col-xl-7 col-lg-7 text-secondary">
+            <h2 class="h1">BEST IN CITY</h2>
+            <div class="display-2 mb-2">
               TRUSTED CAB SERVICES <br />
               IN NEW YORK
             </div>
@@ -40,9 +40,88 @@
               delectus doloremque voluptas. Ab debitis molestias quae illum
               nesciunt.
             </p>
+            <button class="btn btn-secondary">READ MORE</button>
           </div>
-          <div class="col"></div>
+          <div class="col-lg-5 col-xl-4">
+            <div class="book-form fs-4">
+              <div class="h3 text-white bg-black p-2 m-0">
+                BOOK A <span class="text-primary">CAB</span>
+              </div>
+              <form class="row g-1 p-2 m-0 text-secondary bg-white">
+                <div class="col-md-6 mb-2">
+                  <input
+                    type="text"
+                    class="book-form__input"
+                    id="inputName"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="col-md-6 mb-2">
+                  <input
+                    type="tel"
+                    class="book-form__input"
+                    id="inputPhone"
+                    placeholder="Phone"
+                  />
+                </div>
+                <div class="col-md-6 mb-2">
+                  <label for="inputDate" class="book-form__label">Date:</label>
+                  <br />
+                  <input
+                    type="date"
+                    class="book-form__input"
+                    id="inputDate"
+                    placeholder="Date"
+                  />
+                </div>
+                <div class="col-md-6 mb-2">
+                  <label for="inputTime" class="book-form__label">Time:</label>
+                  <br />
+                  <input
+                    type="time"
+                    class="book-form__input"
+                    id="inputTime"
+                    placeholder="Time"
+                  />
+                </div>
+                <div class="col-md-6 mb-2">
+                  <input
+                    type="text"
+                    class="book-form__input"
+                    id="inputStart"
+                    placeholder="Start location"
+                  />
+                </div>
+                <div class="col-md-6 mb-2">
+                  <input
+                    type="text"
+                    class="book-form__input"
+                    id="inputEnd"
+                    placeholder="End location"
+                  />
+                </div>
+                <div class="col-12 mb-2">
+                  <select id="inputState" class="form-select book-form__select">
+                    <option selected>Choose Vehicle</option>
+                    <option>Volvo - Economy Class</option>
+                    <option>BMW - Standard Class</option>
+                    <option>Mercedes - Business Class</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-secondary col-12">
+                    SUBMIT
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+    <section class="py-4 text-center">
+      <div class="container">
+        <h2 class="h1 text-primary lh-1">OUR<br /><span class="display-3 text-secondary">TARIFFS</span></h2>
       </div>
     </section>
     <script src="./index.js"></script>
