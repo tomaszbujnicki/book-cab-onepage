@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./scss/style.scss" />
   </head>
-  <body>
+  <body class="text-black">
     <section class="hero">
       <div class="container">
         <header class="text-center pt-5">
@@ -24,7 +24,7 @@
     <section class="best-in-city bg-primary">
       <div class="container py-4">
         <div class="row justify-content-between">
-          <div class="col-xxl-6 col-xl-7 col-lg-7 text-secondary">
+          <div class="col-xxl-6 col-xl-7 col-lg-7">
             <h2 class="h1">BEST IN CITY</h2>
             <div class="display-2 mb-2">
               TRUSTED CAB SERVICES <br />
@@ -47,7 +47,7 @@
               <div class="h3 text-white bg-black p-2 m-0">
                 BOOK A <span class="text-primary">CAB</span>
               </div>
-              <form class="row g-1 p-2 m-0 text-secondary bg-white">
+              <form class="row g-1 p-2 m-0 bg-white">
                 <div class="col-md-6 mb-2">
                   <input
                     type="text"
@@ -103,9 +103,9 @@
                 <div class="col-12 mb-2">
                   <select id="inputState" class="form-select book-form__select">
                     <option selected>Choose Vehicle</option>
-                    <option>Volvo - Economy Class</option>
-                    <option>BMW - Standard Class</option>
-                    <option>Mercedes - Business Class</option>
+                    <option>Ford - Economy Class</option>
+                    <option>Volkswagen - Standard Class</option>
+                    <option>BMW - Business Class</option>
                   </select>
                 </div>
                 <div class="col-12">
@@ -119,11 +119,66 @@
         </div>
       </div>
     </section>
-    <section class="py-4 text-center">
+    <section id="tariffs" class="py-4 text-center">
       <div class="container">
-        <h2 class="h1 text-primary lh-1">OUR<br /><span class="display-3 text-secondary">TARIFFS</span></h2>
+        <h2 class="h1 lh-1">
+          <span class="text-primary">OUR</span><br /><span class="display-3"
+            >TARIFFS</span
+          >
+        </h2>
+        <div class="row g-3 justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-0 bg-light mt-4">
+              <img src="./img/car4.png" class="card-img-top mt-n4" alt="" />
+              <div class="card-body">
+                <h3 class="card-title">ECONOMY CLASS</h3>
+                <p class="card-text fs-5">
+                  Maiores dolores voluptatum doloribus quasi, saepe voluptatem,
+                  voluptatibus aperiam aliquid eum deserunt corrupti!
+                </p>
+                <p class="h1 text-primary">$1.3/MI</p>
+                <a href="#" class="btn btn-primary font-weight-bold"
+                  >READ MORE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-0 bg-primary mt-4">
+              <img src="./img/car2.png" class="card-img-top mt-n4" alt="" />
+              <div class="card-body">
+                <h3 class="card-title">ECONOMY CLASS</h3>
+                <p class="card-text fs-5">
+                  Maiores dolores voluptatum doloribus quasi, saepe voluptatem,
+                  voluptatibus aperiam aliquid eum deserunt corrupti!
+                </p>
+                <p class="h1">$1.7/MI</p>
+                <a href="#" class="btn btn-secondary font-weight-bold"
+                  >READ MORE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-0 bg-light mt-4">
+              <img src="./img/car3.png" class="card-img-top mt-n4" alt="" />
+              <div class="card-body">
+                <h3 class="card-title">ECONOMY CLASS</h3>
+                <p class="card-text fs-5">
+                  Maiores dolores voluptatum doloribus quasi, saepe voluptatem,
+                  voluptatibus aperiam aliquid eum deserunt corrupti!
+                </p>
+                <p class="h1 text-primary">$1.7/MI</p>
+                <a href="#" class="btn btn-primary font-weight-bold"
+                  >READ MORE</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
     <script src="./index.js"></script>
   </body>
 </html>
