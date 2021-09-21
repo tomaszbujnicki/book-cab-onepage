@@ -5,5 +5,32 @@
 .best-in-city {
   padding-top: 5rem;
 }
+.we-do-best {
+  background-image: url('../img/we-do-best-background.png');
+  background-size: cover;
+}
+.references {
+  background-image: url('../img/clients-background.png');
+  background-size: cover;
+}
 
+.footer {
+  background-image: url('../img/footer-background.png');
+  background-size: cover;
+  & img {
+    width: 2.2rem;
+    height: auto;
+  }
+}
 
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+#form,
+#tariffs,
+#app {
+  scroll-margin-top: 60px;
+}

@@ -6,6 +6,40 @@
     <link rel="stylesheet" href="./scss/style.scss" />
   </head>
   <body class="text-black">
+    <nav
+      class="my-nav navbar navbar-dark navbar-expand-lg bg-dark py-1 fixed-top"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand"
+          ><span class="text-white">Cab</span
+          ><span class="text-primary">HUB</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#form" class="nav-link" >BOOK CAB</a>
+            </li>
+            <li class="nav-item">
+              <a href="#tariffs" class="nav-link">TARIFFS</a>
+            </li>
+            <li class="nav-item">
+              <a href="#app" class="nav-link">APP</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <section class="hero">
       <div class="container">
         <header class="text-center pt-5">
@@ -24,7 +58,7 @@
     <section class="best-in-city bg-primary">
       <div class="container py-4">
         <div class="row justify-content-between">
-          <div class="col-xxl-6 col-xl-7 col-lg-7">
+          <div class="col-xxl-6 col-xl-7 col-lg-7 mb-3">
             <h2 class="h1">BEST IN CITY</h2>
             <div class="display-2 mb-2">
               TRUSTED CAB SERVICES <br />
@@ -40,10 +74,10 @@
               delectus doloremque voluptas. Ab debitis molestias quae illum
               nesciunt.
             </p>
-            <button class="btn btn-secondary">READ MORE</button>
+            <button class="btn btn-secondary btn-lg">READ MORE</button>
           </div>
           <div class="col-lg-5 col-xl-4">
-            <div class="book-form fs-4">
+            <div id="form" class="book-form fs-4">
               <div class="h3 text-white bg-black p-2 m-0">
                 BOOK A <span class="text-primary">CAB</span>
               </div>
@@ -137,9 +171,9 @@
                   voluptatibus aperiam aliquid eum deserunt corrupti!
                 </p>
                 <p class="h1 text-primary">$1.3/MI</p>
-                <a href="#" class="btn btn-primary font-weight-bold"
-                  >READ MORE</a
-                >
+                <button class="btn btn-primary font-weight-bold">
+                  READ MORE
+                </button>
               </div>
             </div>
           </div>
@@ -153,9 +187,9 @@
                   voluptatibus aperiam aliquid eum deserunt corrupti!
                 </p>
                 <p class="h1">$1.7/MI</p>
-                <a href="#" class="btn btn-secondary font-weight-bold"
-                  >READ MORE</a
-                >
+                <button class="btn btn-secondary font-weight-bold">
+                  READ MORE
+                </button>
               </div>
             </div>
           </div>
@@ -169,15 +203,379 @@
                   voluptatibus aperiam aliquid eum deserunt corrupti!
                 </p>
                 <p class="h1 text-primary">$1.7/MI</p>
-                <a href="#" class="btn btn-primary font-weight-bold"
-                  >READ MORE</a
-                >
+                <button class="btn btn-primary font-weight-bold">
+                  READ MORE
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <section id="we-do-best" class="we-do-best py-4">
+      <div
+        class="
+          container
+          d-flex
+          justify-content-center
+          flex-column
+          align-items-center
+        "
+      >
+        <h2 class="h1 lh-1 text-center">
+          <span class="text-primary">WE DO BEST</span><br /><span
+            class="display-3 text-white"
+            >THEN YOU WISH</span
+          >
+        </h2>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <div class="card bg-transparent border-0">
+              <div class="row g-0">
+                <div
+                  class="
+                    col-sm-2
+                    d-none d-sm-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                >
+                  <div class="circle bg-primary">
+                    <i class="bi bi-house-fill fs-1"></i>
+                  </div>
+                </div>
+                <div class="col-sm-10">
+                  <div class="card-body">
+                    <h3 class="card-title text-primary">HOME PICKUP</h3>
+                    <p class="card-text fs-5 text-white">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card bg-transparent border-0">
+              <div class="row g-0">
+                <div
+                  class="
+                    col-sm-2
+                    d-none d-sm-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                >
+                  <div class="circle bg-primary">
+                    <i class="bi bi-hourglass-bottom fs-1"></i>
+                  </div>
+                </div>
+                <div class="col-sm-10">
+                  <div class="card-body">
+                    <h3 class="card-title text-primary">FAST BOOKING</h3>
+                    <p class="card-text fs-5 text-white">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card bg-transparent border-0">
+              <div class="row g-0">
+                <div
+                  class="
+                    col-sm-2
+                    d-none d-sm-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                >
+                  <div class="circle bg-primary">
+                    <i class="bi bi-geo-alt-fill fs-1"></i>
+                  </div>
+                </div>
+                <div class="col-sm-10">
+                  <div class="card-body">
+                    <h3 class="card-title text-primary">GPS SEARCHING</h3>
+                    <p class="card-text fs-5 text-white">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card bg-transparent border-0">
+              <div class="row g-0">
+                <div
+                  class="
+                    col-sm-2
+                    d-none d-sm-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                >
+                  <div class="circle bg-primary">
+                    <i class="bi bi-credit-card-fill fs-1"></i>
+                  </div>
+                </div>
+                <div class="col-sm-10">
+                  <div class="card-body">
+                    <h3 class="card-title text-primary">EASY PAYMENT</h3>
+                    <p class="card-text fs-5 text-white">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary btn-lg">READ MORE</button>
+      </div>
+    </section>
+    <section id="app" class="pt-4">
+      <div class="container px-xl-5 px-lg-3">
+        <h2 class="h1 text-center mb-4">
+          <span class="text-primary">DOWNLOAD</span><br /><span
+            class="display-3"
+            >BEST CAB SERVIES</span
+          >
+        </h2>
+        <div class="row justify-content-center">
+          <div class="col-md-7 mt-xl-4 pb-3 pb-md-0 mb-2">
+            <h3>
+              Downlaod the Cab voucher app free!<br />
+              Get Exciting New Offers
+            </h3>
+            <p class="fs-5 w-75">
+              Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio,
+              recusandae. Assumenda ex at iusto veritatis.
+            </p>
+            <button class="btn bg-secondary rounded-pill p-0 m-1">
+              <img
+                src="./img/google-play.png"
+                alt="google play"
+                class="img-fluid"
+              />
+            </button>
+            <button class="btn bg-secondary rounded-pill p-0 m-1">
+              <img
+                src="./img/app-store.png"
+                alt="google play"
+                class="img-fluid"
+              />
+            </button>
+          </div>
+          <div class="col-md-5 col-sm-8 col-10 d-flex align-items-end">
+            <img src="./img/app-mobile.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="references" class="references py-4">
+      <div class="container">
+        <h2 class="h1 text-center mb-4">
+          <span class="text-primary">REFERENCES FROM</span><br /><span
+            class="text-white display-3"
+            >SATISFIED CUSTOMERS</span
+          >
+        </h2>
+        <div class="row g-4 fs-5">
+          <div class="col-lg-6">
+            <div class="speech-bubble">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                velit laborum deleniti, asperiores minus rem?
+              </p>
+              <div
+                class="
+                  d-flex
+                  flex-wrap
+                  justify-content-center justify-content-sm-start
+                "
+              >
+                <div class="">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/8.jpg"
+                    class="rounded-circle me-2"
+                    alt=""
+                  />
+                </div>
+                <div class="">
+                  <h3 class="text-primary mb-0">Joanna Quark</h3>
+                  <div class="fs-4">Journalist</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="speech-bubble">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                velit laborum deleniti, asperiores minus rem?
+              </p>
+              <div
+                class="
+                  d-flex
+                  flex-wrap
+                  justify-content-center justify-content-sm-start
+                "
+              >
+                <div class="">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/7.jpg"
+                    class="rounded-circle me-2"
+                    alt=""
+                  />
+                </div>
+                <div class="">
+                  <h3 class="text-primary mb-0">Roberto Betoni</h3>
+                  <div class="fs-4">Hairdresser</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="call" class="call bg-primary text-secondary">
+      <div class="container p-4 text-center">
+        <h2 class="h1">WE ARE READY TO TAKE YOUR CALL 24/7</h2>
+        <div class="display-1">+123 4567 8900</div>
+      </div>
+    </section>
+    <footer id="footer" class="footer text-white">
+      <h2 class="hidden">Contact</h2>
+      <div class="container py-4">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <h3>ABOUT CAB HUB</h3>
+            <hr class="bg-primary opacity-100 w-75" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At porro
+              deserunt ipsa excepturi ullam labore, aspernatur alias nulla.
+              Harum reiciendis nulla atque a corporis quae quisquam. Quae
+              distinctio eveniet optio!
+            </p>
+            <ul class="list-unstyled d-flex g-2">
+              <li class="m-1">
+                <a href="#"
+                  ><i class="bi-facebook" role="img" aria-label="Facebook"></i
+                ></a>
+              </li>
+              <li class="m-1">
+                <a href="#"
+                  ><i class="bi-linkedin" role="img" aria-label="LinkedIn"></i
+                ></a>
+              </li>
+              <li class="m-1">
+                <a href="#"
+                  ><i class="bi-twitter" role="img" aria-label="Twitter"></i
+                ></a>
+              </li>
+              <li class="m-1">
+                <a href="#"
+                  ><i class="bi-instagram" role="img" aria-label="Instagram"></i
+                ></a>
+              </li>
+              <li class="m-1">
+                <a href="#"
+                  ><i class="bi-discord" role="img" aria-label="Discord"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <h3>DOWNLOAD</h3>
+            <hr class="bg-primary opacity-100 w-75" />
+            <p class="mb-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium voluptatum beatae, error voluptates ut nobis!
+            </p>
+
+            <div class="d-flex mb-2 align-content-center">
+              <div style="width: 10rem" class="text-primary fs-4">
+                <a href="#">Android Users</a>
+              </div>
+              <div><img src="./img/android.png" alt="" class="" /></div>
+            </div>
+            <div class="d-flex mb-2 align-content-center">
+              <div style="width: 10rem" class="text-primary fs-4">
+                <a href="#">IOS Users</a>
+              </div>
+              <div><img src="./img/apple.png" alt="" class="" /></div>
+            </div>
+          </div>
+          <div id="contact" class="col-md-6 col-lg-4">
+            <h3>CONTACT</h3>
+            <hr class="bg-primary opacity-100 w-75" />
+            <ul class="list-unstyled">
+              <li class="row mb-2 align-items-center">
+                <div class="col-2">
+                  <i class="bi bi-geo-alt-fill fs-4" aria-label="Address"></i>
+                </div>
+                <div class="col-10">
+                  150 Main Street New City<br />
+                  USA 123456
+                </div>
+              </li>
+              <li class="row mb-2">
+                <div class="col-2">
+                  <i
+                    class="bi bi-telephone-forward-fill fs-4"
+                    aria-label="Telephone"
+                  ></i>
+                </div>
+                <div class="col-10">+123 4567 8900</div>
+              </li>
+              <li class="row mb-2">
+                <div class="col-2">
+                  <i class="bi bi-envelope-fill fs-4" aria-label="E-mail"></i>
+                </div>
+                <div class="col-10">
+                  <a href="mailto: office@example.com">office@example.com</a>
+                </div>
+              </li>
+              <li class="row mb-2">
+                <div class="col-2">
+                  <i class="bi bi-cursor-fill fs-4" aria-label="Website"></i>
+                </div>
+                <div class="col-10">
+                  <a href="http://www.google.com/">www.google.com</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="bg-primary opacity-50 mt-4" />
+        <div class="d-flex justify-content-center align-items-end">
+          <div class="me-2">
+            PSD by
+            <a href="https://psdfreebies.com/" class="mx-1"> PSDFreebies</a>
+          </div>
+          <div class="ms-2">
+            coded by
+            <a href="https://github.com/tomaszbujnicki" class="ms-1"
+              >Tomasz Bujnicki</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="./index.js"></script>
   </body>
