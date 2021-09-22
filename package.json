@@ -8,12 +8,15 @@
     "parcel-bundler": "^1.12.5"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "sass": "^1.41.1"
   },
   "scripts": {
     "dev": "parcel ./index.html",
     "prebuild": "npx rimraf build",
-    "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build"
+    "build": "parcel build ./index.html --public-url ./  --experimental-scope-hoisting --out-dir build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Tomasz Bujnicki",
   "license": "ISC"
